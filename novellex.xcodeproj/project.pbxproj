@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C01D98D284D0C4B0079CE4E /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01D98C284D0C4B0079CE4E /* Components.swift */; };
+		8C01D98F284D485B0079CE4E /* NovellaState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01D98E284D485B0079CE4E /* NovellaState.swift */; };
+		8C01D991284D54550079CE4E /* EntityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01D990284D54550079CE4E /* EntityView.swift */; };
+		8C01D993284D5C4E0079CE4E /* NvClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01D992284D5C4E0079CE4E /* NvClient.swift */; };
+		8C5543AA284BE9A60025F3E6 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5543A9284BE9A60025F3E6 /* Entity.swift */; };
+		8C5543AD284C2FA90025F3E6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8C5543AC284C2FA90025F3E6 /* Alamofire */; };
+		8CAE2587284BBD9400CAC3EC /* novellexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE2586284BBD9400CAC3EC /* novellexApp.swift */; };
+		8CAE2589284BBD9400CAC3EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE2588284BBD9400CAC3EC /* ContentView.swift */; };
+		8CAE258B284BBD9700CAC3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAE258A284BBD9700CAC3EC /* Assets.xcassets */; };
+		8CAE258E284BBD9700CAC3EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAE258D284BBD9700CAC3EC /* Preview Assets.xcassets */; };
+		8CAE2599284BBD9700CAC3EC /* novellexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE2598284BBD9700CAC3EC /* novellexTests.swift */; };
+		8CAE25A3284BBD9700CAC3EC /* novellexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE25A2284BBD9700CAC3EC /* novellexUITests.swift */; };
+		8CAE25A5284BBD9700CAC3EC /* novellexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE25A4284BBD9700CAC3EC /* novellexUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CAE2595284BBD9700CAC3EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CAE257B284BBD9400CAC3EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CAE2582284BBD9400CAC3EC;
+			remoteInfo = novellex;
+		};
+		8CAE259F284BBD9700CAC3EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CAE257B284BBD9400CAC3EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CAE2582284BBD9400CAC3EC;
+			remoteInfo = novellex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C01D98C284D0C4B0079CE4E /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		8C01D98E284D485B0079CE4E /* NovellaState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovellaState.swift; sourceTree = "<group>"; };
+		8C01D990284D54550079CE4E /* EntityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityView.swift; sourceTree = "<group>"; };
+		8C01D992284D5C4E0079CE4E /* NvClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvClient.swift; sourceTree = "<group>"; };
+		8C5543A9284BE9A60025F3E6 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		8CAE2583284BBD9400CAC3EC /* novellex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = novellex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAE2586284BBD9400CAC3EC /* novellexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novellexApp.swift; sourceTree = "<group>"; };
+		8CAE2588284BBD9400CAC3EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CAE258A284BBD9700CAC3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CAE258D284BBD9700CAC3EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CAE258F284BBD9700CAC3EC /* novellex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = novellex.entitlements; sourceTree = "<group>"; };
+		8CAE2594284BBD9700CAC3EC /* novellexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = novellexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAE2598284BBD9700CAC3EC /* novellexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novellexTests.swift; sourceTree = "<group>"; };
+		8CAE259E284BBD9700CAC3EC /* novellexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = novellexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAE25A2284BBD9700CAC3EC /* novellexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novellexUITests.swift; sourceTree = "<group>"; };
+		8CAE25A4284BBD9700CAC3EC /* novellexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novellexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CAE2580284BBD9400CAC3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5543AD284C2FA90025F3E6 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAE2591284BBD9700CAC3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAE259B284BBD9700CAC3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C5543A7284BE93D0025F3E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C5543A9284BE9A60025F3E6 /* Entity.swift */,
+				8C01D98E284D485B0079CE4E /* NovellaState.swift */,
+				8C01D98C284D0C4B0079CE4E /* Components.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C5543A8284BE96F0025F3E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE2588284BBD9400CAC3EC /* ContentView.swift */,
+				8C01D990284D54550079CE4E /* EntityView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CAE257A284BBD9400CAC3EC = {
+			isa = PBXGroup;
+			children = (
+				8CAE2585284BBD9400CAC3EC /* novellex */,
+				8CAE2597284BBD9700CAC3EC /* novellexTests */,
+				8CAE25A1284BBD9700CAC3EC /* novellexUITests */,
+				8CAE2584284BBD9400CAC3EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CAE2584284BBD9400CAC3EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE2583284BBD9400CAC3EC /* novellex.app */,
+				8CAE2594284BBD9700CAC3EC /* novellexTests.xctest */,
+				8CAE259E284BBD9700CAC3EC /* novellexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CAE2585284BBD9400CAC3EC /* novellex */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE2586284BBD9400CAC3EC /* novellexApp.swift */,
+				8C5543A8284BE96F0025F3E6 /* Views */,
+				8C5543A7284BE93D0025F3E6 /* Models */,
+				8CAE258A284BBD9700CAC3EC /* Assets.xcassets */,
+				8CAE258F284BBD9700CAC3EC /* novellex.entitlements */,
+				8CAE258C284BBD9700CAC3EC /* Preview Content */,
+				8C01D992284D5C4E0079CE4E /* NvClient.swift */,
+			);
+			path = novellex;
+			sourceTree = "<group>";
+		};
+		8CAE258C284BBD9700CAC3EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE258D284BBD9700CAC3EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CAE2597284BBD9700CAC3EC /* novellexTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE2598284BBD9700CAC3EC /* novellexTests.swift */,
+			);
+			path = novellexTests;
+			sourceTree = "<group>";
+		};
+		8CAE25A1284BBD9700CAC3EC /* novellexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE25A2284BBD9700CAC3EC /* novellexUITests.swift */,
+				8CAE25A4284BBD9700CAC3EC /* novellexUITestsLaunchTests.swift */,
+			);
+			path = novellexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CAE2582284BBD9400CAC3EC /* novellex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAE25A8284BBD9700CAC3EC /* Build configuration list for PBXNativeTarget "novellex" */;
+			buildPhases = (
+				8CAE257F284BBD9400CAC3EC /* Sources */,
+				8CAE2580284BBD9400CAC3EC /* Frameworks */,
+				8CAE2581284BBD9400CAC3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = novellex;
+			packageProductDependencies = (
+				8C5543AC284C2FA90025F3E6 /* Alamofire */,
+			);
+			productName = novellex;
+			productReference = 8CAE2583284BBD9400CAC3EC /* novellex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CAE2593284BBD9700CAC3EC /* novellexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAE25AB284BBD9700CAC3EC /* Build configuration list for PBXNativeTarget "novellexTests" */;
+			buildPhases = (
+				8CAE2590284BBD9700CAC3EC /* Sources */,
+				8CAE2591284BBD9700CAC3EC /* Frameworks */,
+				8CAE2592284BBD9700CAC3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CAE2596284BBD9700CAC3EC /* PBXTargetDependency */,
+			);
+			name = novellexTests;
+			productName = novellexTests;
+			productReference = 8CAE2594284BBD9700CAC3EC /* novellexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CAE259D284BBD9700CAC3EC /* novellexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAE25AE284BBD9700CAC3EC /* Build configuration list for PBXNativeTarget "novellexUITests" */;
+			buildPhases = (
+				8CAE259A284BBD9700CAC3EC /* Sources */,
+				8CAE259B284BBD9700CAC3EC /* Frameworks */,
+				8CAE259C284BBD9700CAC3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CAE25A0284BBD9700CAC3EC /* PBXTargetDependency */,
+			);
+			name = novellexUITests;
+			productName = novellexUITests;
+			productReference = 8CAE259E284BBD9700CAC3EC /* novellexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CAE257B284BBD9400CAC3EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8CAE2582284BBD9400CAC3EC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8CAE2593284BBD9700CAC3EC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8CAE2582284BBD9400CAC3EC;
+					};
+					8CAE259D284BBD9700CAC3EC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8CAE2582284BBD9400CAC3EC;
+					};
+				};
+			};
+			buildConfigurationList = 8CAE257E284BBD9400CAC3EC /* Build configuration list for PBXProject "novellex" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CAE257A284BBD9400CAC3EC;
+			packageReferences = (
+				8C5543AB284C2FA90025F3E6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 8CAE2584284BBD9400CAC3EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CAE2582284BBD9400CAC3EC /* novellex */,
+				8CAE2593284BBD9700CAC3EC /* novellexTests */,
+				8CAE259D284BBD9700CAC3EC /* novellexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CAE2581284BBD9400CAC3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAE258E284BBD9700CAC3EC /* Preview Assets.xcassets in Resources */,
+				8CAE258B284BBD9700CAC3EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAE2592284BBD9700CAC3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAE259C284BBD9700CAC3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CAE257F284BBD9400CAC3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C01D98F284D485B0079CE4E /* NovellaState.swift in Sources */,
+				8C01D993284D5C4E0079CE4E /* NvClient.swift in Sources */,
+				8C01D991284D54550079CE4E /* EntityView.swift in Sources */,
+				8CAE2589284BBD9400CAC3EC /* ContentView.swift in Sources */,
+				8C01D98D284D0C4B0079CE4E /* Components.swift in Sources */,
+				8CAE2587284BBD9400CAC3EC /* novellexApp.swift in Sources */,
+				8C5543AA284BE9A60025F3E6 /* Entity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAE2590284BBD9700CAC3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAE2599284BBD9700CAC3EC /* novellexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAE259A284BBD9700CAC3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAE25A5284BBD9700CAC3EC /* novellexUITestsLaunchTests.swift in Sources */,
+				8CAE25A3284BBD9700CAC3EC /* novellexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CAE2596284BBD9700CAC3EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CAE2582284BBD9400CAC3EC /* novellex */;
+			targetProxy = 8CAE2595284BBD9700CAC3EC /* PBXContainerItemProxy */;
+		};
+		8CAE25A0284BBD9700CAC3EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CAE2582284BBD9400CAC3EC /* novellex */;
+			targetProxy = 8CAE259F284BBD9700CAC3EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8CAE25A6284BBD9700CAC3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CAE25A7284BBD9700CAC3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8CAE25A9284BBD9700CAC3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = novellex/novellex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"novellex/Preview Content\"";
+				DEVELOPMENT_TEAM = R28259J8P3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.storm.novellex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8CAE25AA284BBD9700CAC3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = novellex/novellex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"novellex/Preview Content\"";
+				DEVELOPMENT_TEAM = R28259J8P3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.storm.novellex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8CAE25AC284BBD9700CAC3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R28259J8P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.storm.novellexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/novellex.app/Contents/MacOS/novellex";
+			};
+			name = Debug;
+		};
+		8CAE25AD284BBD9700CAC3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R28259J8P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.storm.novellexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/novellex.app/Contents/MacOS/novellex";
+			};
+			name = Release;
+		};
+		8CAE25AF284BBD9700CAC3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R28259J8P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.storm.novellexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = novellex;
+			};
+			name = Debug;
+		};
+		8CAE25B0284BBD9700CAC3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R28259J8P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.storm.novellexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = novellex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CAE257E284BBD9400CAC3EC /* Build configuration list for PBXProject "novellex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAE25A6284BBD9700CAC3EC /* Debug */,
+				8CAE25A7284BBD9700CAC3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAE25A8284BBD9700CAC3EC /* Build configuration list for PBXNativeTarget "novellex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAE25A9284BBD9700CAC3EC /* Debug */,
+				8CAE25AA284BBD9700CAC3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAE25AB284BBD9700CAC3EC /* Build configuration list for PBXNativeTarget "novellexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAE25AC284BBD9700CAC3EC /* Debug */,
+				8CAE25AD284BBD9700CAC3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAE25AE284BBD9700CAC3EC /* Build configuration list for PBXNativeTarget "novellexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAE25AF284BBD9700CAC3EC /* Debug */,
+				8CAE25B0284BBD9700CAC3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C5543AB284C2FA90025F3E6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C5543AC284C2FA90025F3E6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C5543AB284C2FA90025F3E6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8CAE257B284BBD9400CAC3EC /* Project object */;
+}
