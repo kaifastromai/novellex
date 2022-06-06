@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Entity{
+struct Entity:Identifiable{
     var id:Int
-    var name:String 
+    var name:String
+    var components:[Component]
     
 }
-

@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct EntityView: View {
+    var entity:Entity
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GroupBox(label:Label(entity.name, systemImage: "bolt.fill")){
+            List(entity.components){
+                $0.generate_view()
+            }
+        }
     }
 }
 
 struct EntityView_Previews: PreviewProvider {
     static var previews: some View {
-        EntityView()
+        let ar:[Component]=[NameComponent(id:UUID(),owning_entity:UUID(), name:"AndrewGallespy"),NameComponent(id:UUID(), owning_entity: UUID(),name:"Jakob"),
+                            StringFieldComponent(id:UUID(), owning_entity: UUID(),field_name: "Age",value: "32")]
+        let entity=Entity(id:0,name:"Entity",components: ar)
+        EntityView(entity:entity)
     }
 }
