@@ -7,14 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C01D98D284D0C4B0079CE4E /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01D98C284D0C4B0079CE4E /* Components.swift */; };
-		8C01D98F284D485B0079CE4E /* NovellaState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01D98E284D485B0079CE4E /* NovellaState.swift */; };
-		8C01D991284D54550079CE4E /* EntityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01D990284D54550079CE4E /* EntityView.swift */; };
 		8C01D993284D5C4E0079CE4E /* NvClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01D992284D5C4E0079CE4E /* NvClient.swift */; };
-		8C5543AA284BE9A60025F3E6 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5543A9284BE9A60025F3E6 /* Entity.swift */; };
 		8C5543AD284C2FA90025F3E6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8C5543AC284C2FA90025F3E6 /* Alamofire */; };
 		8CAE2587284BBD9400CAC3EC /* novellexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE2586284BBD9400CAC3EC /* novellexApp.swift */; };
-		8CAE2589284BBD9400CAC3EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE2588284BBD9400CAC3EC /* ContentView.swift */; };
 		8CAE258B284BBD9700CAC3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAE258A284BBD9700CAC3EC /* Assets.xcassets */; };
 		8CAE258E284BBD9700CAC3EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAE258D284BBD9700CAC3EC /* Preview Assets.xcassets */; };
 		8CAE2599284BBD9700CAC3EC /* novellexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE2598284BBD9700CAC3EC /* novellexTests.swift */; };
@@ -40,14 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8C01D98C284D0C4B0079CE4E /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
-		8C01D98E284D485B0079CE4E /* NovellaState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovellaState.swift; sourceTree = "<group>"; };
-		8C01D990284D54550079CE4E /* EntityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityView.swift; sourceTree = "<group>"; };
 		8C01D992284D5C4E0079CE4E /* NvClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvClient.swift; sourceTree = "<group>"; };
-		8C5543A9284BE9A60025F3E6 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		8CAE2583284BBD9400CAC3EC /* novellex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = novellex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAE2586284BBD9400CAC3EC /* novellexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novellexApp.swift; sourceTree = "<group>"; };
-		8CAE2588284BBD9400CAC3EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CAE258A284BBD9700CAC3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CAE258D284BBD9700CAC3EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CAE258F284BBD9700CAC3EC /* novellex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = novellex.entitlements; sourceTree = "<group>"; };
@@ -84,25 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8C5543A7284BE93D0025F3E6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				8C5543A9284BE9A60025F3E6 /* Entity.swift */,
-				8C01D98E284D485B0079CE4E /* NovellaState.swift */,
-				8C01D98C284D0C4B0079CE4E /* Components.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		8C5543A8284BE96F0025F3E6 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				8CAE2588284BBD9400CAC3EC /* ContentView.swift */,
-				8C01D990284D54550079CE4E /* EntityView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		8CAE257A284BBD9400CAC3EC = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				8CAE2586284BBD9400CAC3EC /* novellexApp.swift */,
-				8C5543A8284BE96F0025F3E6 /* Views */,
-				8C5543A7284BE93D0025F3E6 /* Models */,
 				8CAE258A284BBD9700CAC3EC /* Assets.xcassets */,
 				8CAE258F284BBD9700CAC3EC /* novellex.entitlements */,
 				8CAE258C284BBD9700CAC3EC /* Preview Content */,
@@ -298,13 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C01D98F284D485B0079CE4E /* NovellaState.swift in Sources */,
 				8C01D993284D5C4E0079CE4E /* NvClient.swift in Sources */,
-				8C01D991284D54550079CE4E /* EntityView.swift in Sources */,
-				8CAE2589284BBD9400CAC3EC /* ContentView.swift in Sources */,
-				8C01D98D284D0C4B0079CE4E /* Components.swift in Sources */,
 				8CAE2587284BBD9400CAC3EC /* novellexApp.swift in Sources */,
-				8C5543AA284BE9A60025F3E6 /* Entity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
